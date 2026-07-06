@@ -24,7 +24,8 @@ export default function Layout() {
         <Outlet />
       </main>
       <FooterSimple
-                brand="Luxury Dental Care"
+                brand="Sylmar Family Dental Practice
+"
                 columns={[
                   {
                     title: "Services",
@@ -54,7 +55,8 @@ export default function Layout() {
                     ],
                   },
                 ]}
-                copyright="© 2025 Luxury Dental Care | Premium Dentistry Since 2005"
+                copyright="© 2025 Sylmar Family Dental Practice
+ | Premium Dentistry Since 2005"
                 links={[{ label: "Privacy Policy" }, { label: "Terms of Service" }]}
               />
     </StyleProvider>
